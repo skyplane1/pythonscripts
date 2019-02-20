@@ -14,6 +14,6 @@ def count(string):
     print('the no. of even no is', even ,'the no of odd no is ', odd)
 
 
-
 count (str1)
 
+#jt -t monokai -T -N -kl -f firacode -fs 130 -ofs 125 -cellw 70%
