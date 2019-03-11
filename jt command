@@ -1,2 +1,3 @@
 prajay@samsepiol:~$ jt -t grade3 -fs 120 -nfs 120 -f fira -ofs 125 -cellw 80% -T -N -kl
 
+jt -t grade3 -fs 15 -nfs 11 -f source -ofs 15 -cellw 88% -T -N -kl
