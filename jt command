@@ -3,3 +3,6 @@ prajay@samsepiol:~$ jt -t grade3 -fs 120 -nfs 120 -f fira -ofs 125 -cellw 80% -T
 jt -t grade3 -fs 15 -nfs 11 -f source -ofs 15 -cellw 88% -T -N -kl
 jt -t monokai -fs 11 -nfs 11 -f roboto -ofs 11 -cellw 88% -T -N -kl
 jt -t onedork -fs 10 -nfs 10 -f firacode -ofs 10 -cellw 94% -T -N -kl
+
+import jupyterthemes
+print(jupyterthemes.__file__)
