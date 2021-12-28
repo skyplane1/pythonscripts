@@ -1,0 +1,37 @@
+/*This file contains any manual css for this page that needs to override the global styles.
+This is only required when different pages style the same element differently. This is just
+a hack to deal with our current css styles and no new styling should be added in this file.*/
+
+#ipython-main-app {
+    position: relative;
+}
+#jupyter-main-app {
+    position: relative;
+}
+
+div#notebook p, div#notebook{
+    /*font-size: 130%;*/
+    /*line-height: 125%;*/
+	font-family: Fira Code;
+}.rendered_html pre, .rendered_html table{
+    /*font-size:130%;*/
+    /*line-height: 125%;*/
+	font-family: Fira Code;
+}.CodeMirror, .CodeMirror pre, .CodeMirror-dialog, .CodeMirror-dialog .CodeMirror-search-field, .terminal-app .terminal {
+    font-size: 95%;
+    line-height: 135%;
+	font-family: Fira Code;
+}.container { width:95% !important; }
+
+div.cell.selected {
+    border-left-width: 1px !important;
+}
+div.output pre{
+    font-family: Roboto Mono;
+	font-size: 90%;
+}
+
+div.output_html td{
+    font-family: Roboto Mono;
+	font-size: 90%;
+}
